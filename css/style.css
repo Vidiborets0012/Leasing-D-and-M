@@ -92,6 +92,30 @@ body {
   color: #fff;
 }
 
+.top {
+  color: #fff;
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 96px;
+  padding-bottom: 38px;
+}
+
+.top-link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 36px;
+  max-width: 430px;
+  width: 100%;
+  padding: 23px;
+  background-color: #151515;
+  text-transform: uppercase;
+}
+
 /* ********************************** */
 /* ************* FOOTER ************* */
 
