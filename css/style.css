@@ -65,6 +65,13 @@ body {
   color: #151515;
 }
 
+.section-title {
+  margin-bottom: 50px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
 .header {
   background-color: #151515;
 }
@@ -161,6 +168,31 @@ body {
 .swiper-pagination-bullet-active {
   height: 6px;
   background-color: #fff;
+}
+
+.why-lease {
+  padding: 150px 0;
+}
+
+.why-lease-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.why-lease-item-img {
+  margin: 0 auto 30px;
+}
+
+.why-lease-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.why-lease-item-text {
+  text-align: left;
 }
 
 /* ********************************** */
