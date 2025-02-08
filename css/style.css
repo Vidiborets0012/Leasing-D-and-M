@@ -267,6 +267,29 @@ body {
   margin: 0 auto;
 }
 
+.important {
+  padding-bottom: 150px;
+}
+
+.important-title {
+  margin-bottom: 20px;
+}
+
+.important-text {
+  max-width: 580px;
+  margin: 0 auto 50px;
+}
+
+.important-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.important-item-img {
+  margin-bottom: 20px;
+}
+
 /* ********************************** */
 /* ************* FOOTER ************* */
 
