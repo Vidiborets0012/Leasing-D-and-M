@@ -113,3 +113,27 @@ body {
 .footer-menu-item + .footer-menu-item {
   padding-top: 20px;
 }
+
+.app {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.footer-copy {
+  max-width: 805px;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.footer-copy-link {
+  text-decoration: underline;
+}
+
+.copy-nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
