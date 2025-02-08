@@ -77,3 +77,39 @@ body {
   font-weight: 700;
   color: #fff;
 }
+
+/* ********************************** */
+/* ************* FOOTER ************* */
+
+.footer {
+  padding: 50px 0 32px;
+  background-color: #151515;
+  color: #fff;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.foter-menu-list-box {
+  width: 270px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-menu-list {
+  max-width: 250px;
+}
+
+.footer-menu-title {
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.footer-menu-item + .footer-menu-item {
+  padding-top: 20px;
+}
