@@ -247,6 +247,26 @@ body {
   top: 0;
 }
 
+.video {
+  padding-bottom: 150px;
+}
+
+.video-title {
+  margin-bottom: 20px;
+}
+
+.video-text {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.video-content {
+  display: block;
+  margin: 0 auto;
+}
+
 /* ********************************** */
 /* ************* FOOTER ************* */
 
