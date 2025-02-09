@@ -104,6 +104,10 @@ body {
   color: #fff;
 }
 
+.menu-list-link-active {
+  color: #0066ff;
+}
+
 .top {
   color: #fff;
   text-align: center;
