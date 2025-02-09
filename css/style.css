@@ -406,7 +406,7 @@ body {
   background-color: #0066ff;
 }
 
-.blog-link {
+.showmore-link {
   text-transform: uppercase;
   cursor: pointer;
   color: #fff;
@@ -417,6 +417,30 @@ body {
   width: 223px;
   margin: 0 auto;
 }
+
+/* ********************************** */
+/* ************* CHOOSE ************* */
+
+/* .choose {
+  padding: 100px 0 150px;
+}
+
+.tabs-btn {
+  padding: 0 150px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+  padding-bottom: 100px;
+}
+
+.tabs-btn-item {
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+} */
 
 /* ********************************** */
 /* ************* FOOTER ************* */
