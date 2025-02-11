@@ -1,13 +1,4 @@
-// const swiper = new Swiper(".swiper", {
-//     effect: "fade",
-//     pagination: {
-//         el: ".swiper-pagination",
-//     },
-//     autoplay: {
-//         delay: 3000,
-//         disableOnInteraction: false,
-//     }
-// });
+
 
 const tabItem = document.querySelectorAll('.tabs-btn-item');
 const tabContent = document.querySelectorAll('.tabs-content-item');
@@ -34,3 +25,21 @@ function open(evt) {
 
 
 }
+
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu-list');
+
+menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('menu-list-active');
+})
+
+const swiper = new Swiper(".swiper", {
+    effect: "fade",
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    }
+});

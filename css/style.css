@@ -554,3 +554,203 @@ body {
   justify-content: center;
   gap: 40px;
 }
+
+.menu-btn {
+  width: 30px;
+  height: 20px;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-btn span {
+  height: 2px;
+  background-color: #fff;
+  width: 100%;
+}
+
+@media (max-width: 1180px) {
+  .important-list {
+    gap: 30px 20px;
+  }
+}
+
+@media (max-width: 1055px) {
+  .video-content {
+    width: 100%;
+  }
+
+  .footer-menu {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 940px) {
+  .footer-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .foter-menu-list-box {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 860px) {
+  .menu-btn {
+    display: flex;
+  }
+
+  .menu-btn,
+  .logo {
+    position: relative;
+    z-index: 10;
+  }
+
+  .menu-list {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    background-color: #151515;
+    height: 100vh;
+    padding-top: 200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .menu-list.menu-list-active {
+    transform: translateY(0);
+  }
+
+  .why-lease-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .important-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .important-item-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 70px;
+  }
+
+  .top-link {
+    font-size: 28px;
+    max-width: 360px;
+    padding: 16px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 60px;
+  }
+
+  .swiper-pagination-bullet-active {
+    height: 4px;
+  }
+
+  .video-content {
+    height: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .top-link {
+    font-size: 24px;
+    max-width: 310px;
+  }
+
+  .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 10px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 35px;
+  }
+
+  .why-lease {
+    padding: 50px 0;
+  }
+
+  .why-lease-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section-title {
+    font-size: 34px;
+  }
+
+  .how-does-list {
+    padding: 30px 0 40px;
+  }
+
+  .how-does-item {
+    margin-right: auto;
+    padding: 65px 0 19px 0;
+  }
+
+  .how-does-item::before {
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .how-does {
+    padding-bottom: 50px;
+  }
+
+  .video {
+    padding-bottom: 50px;
+  }
+
+  .video-content {
+    height: 200px;
+  }
+
+  .important-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .important {
+    padding-bottom: 50px;
+  }
+
+  .footer-menu {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .app,
+  .copy-nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copy-nav-list {
+    gap: 20px;
+  }
+}
