@@ -421,14 +421,14 @@ body {
 /* ********************************** */
 /* ************* CHOOSE ************* */
 
-/* .choose {
+.choose {
   padding: 100px 0 150px;
 }
 
 .tabs-btn {
   padding: 0 150px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: space-between;
   gap: 80px;
   padding-bottom: 100px;
 }
@@ -440,7 +440,52 @@ body {
   border: none;
   background-color: transparent;
   padding: 0;
-} */
+}
+
+.tabs-btn-item-active {
+  color: #0066ff;
+}
+
+.tabs-content-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 40px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-content {
+  padding: 0 5px;
+  border: 1px solid #0066ff;
+  border-top: 0;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cars-text {
+  margin-bottom: 20px;
+}
+
+.card-price {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card-link {
+  display: block;
+  border: 1px solid #06f;
+  border-top: 0;
+  padding: 2px 49px;
+  color: #06f;
+}
 
 /* ********************************** */
 /* ************* FOOTER ************* */
